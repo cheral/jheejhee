@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import M from "./public/js/materialize.min.js";	
-import "./public/css/materialize.min.css";
+import M from "../../public/js/materialize.min.js";	
+import "../../public/css/materialize.min.css";
 
 class Navbar extends Component {	
   componentDidMount() {	
