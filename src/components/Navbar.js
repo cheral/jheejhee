@@ -25,9 +25,9 @@ class Navbar extends Component {
             <ul className="sidenav left" id="mobile-menu">
               <li><a className="subheader">FOODNINJA</a></li>
               <li><a href="/" className="waves-effect">Home</a></li>
-              <li><a href="pages/about.html" class="waves-effect">About</a></li>
+              <li><a href="pages/about.html" className="waves-effect">About</a></li>
               <li><div className="divider"></div></li>
-              <li><a href="pages/contact.html" class="waves-effect">
+              <li><a href="pages/contact.html" className="waves-effect">
                 <i className="material-icons">mail_outline</i>Contact</a>
               </li>
             </ul>
