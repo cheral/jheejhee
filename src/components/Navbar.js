@@ -10,19 +10,19 @@ class Navbar extends Component {
 
   render() {
     return(
-        <nav class="nav-wrapper">
-          <div class="container">
+        <nav className="nav-wrapper">
+          <div className="container">
             <a href="#" className="brand-logo">Food Ninja</a>
             <a href="#" className="sidenav-trigger" data-target="mobile-menu">
-              <i class="material-icons">menu</i>
+              <i className="material-icons">menu</i>
             </a>
-            <ul class="right">
+            <ul className="right">
               <li><a href="">C</a></li>
               <li><a href="">W</a></li>
               <li><a href="">P</a></li>
             </ul>
     
-            <ul class="sidenav left" id="mobile-menu">
+            <ul className="sidenav left" id="mobile-menu">
               <li><a className="subheader">FOODNINJA</a></li>
               <li><a href="/" class="waves-effect">Home</a></li>
               <li><a href="pages/about.html" class="waves-effect">About</a></li>
