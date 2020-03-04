@@ -12,8 +12,8 @@ class Navbar extends Component {
     return(
         <nav class="nav-wrapper">
           <div class="container">
-            <a href="#" class="brand-logo">Food Ninja</a>
-            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+            <a href="#" className="brand-logo">Food Ninja</a>
+            <a href="#" className="sidenav-trigger" data-target="mobile-menu">
               <i class="material-icons">menu</i>
             </a>
             <ul class="right">
@@ -23,12 +23,12 @@ class Navbar extends Component {
             </ul>
     
             <ul class="sidenav left" id="mobile-menu">
-              <li><a class="subheader">FOODNINJA</a></li>
+              <li><a className="subheader">FOODNINJA</a></li>
               <li><a href="/" class="waves-effect">Home</a></li>
               <li><a href="pages/about.html" class="waves-effect">About</a></li>
-              <li><div class="divider"></div></li>
+              <li><div className="divider"></div></li>
               <li><a href="pages/contact.html" class="waves-effect">
-                <i class="material-icons">mail_outline</i>Contact</a>
+                <i className="material-icons">mail_outline</i>Contact</a>
               </li>
             </ul>
           </div>
