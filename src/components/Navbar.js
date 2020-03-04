@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import M from "./materialize.min.js";	
-import "./materialize.min.css";
+import M from "materialize.min.js";	
+import "materialize.min.css";
 
 class Navbar extends Component {	
   componentDidMount() {	
@@ -24,7 +24,7 @@ class Navbar extends Component {
     
             <ul className="sidenav left" id="mobile-menu">
               <li><a className="subheader">FOODNINJA</a></li>
-              <li><a href="/" class="waves-effect">Home</a></li>
+              <li><a href="/" className="waves-effect">Home</a></li>
               <li><a href="pages/about.html" class="waves-effect">About</a></li>
               <li><div className="divider"></div></li>
               <li><a href="pages/contact.html" class="waves-effect">
