@@ -1,0 +1,32 @@
+import React from 'react';
+import { Link } from 'react-router-dom'
+ const Navbar = ()=>{
+    return(
+        <nav class="nav-wrapper">
+          <div class="container">
+            <a href="#" class="brand-logo">Food Ninja</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right">
+              <li><a href="">C</a></li>
+              <li><a href="">W</a></li>
+              <li><a href="">P</a></li>
+            </ul>
+    
+            <ul class="sidenav left" id="mobile-menu">
+              <li><a class="subheader">FOODNINJA</a></li>
+              <li><a href="/" class="waves-effect">Home</a></li>
+              <li><a href="pages/about.html" class="waves-effect">About</a></li>
+              <li><div class="divider"></div></li>
+              <li><a href="pages/contact.html" class="waves-effect">
+                <i class="material-icons">mail_outline</i>Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    
+    )
+}
+
+export default Navbar;
