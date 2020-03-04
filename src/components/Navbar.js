@@ -1,6 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom'
- const Navbar = ()=>{
+import React, {Component} from 'react';
+import M from "./public/js/materialize.min.js";	
+import "./public/css/materialize.min.css";
+
+class Navbar extends Component {	
+  componentDidMount() {	
+      var elem = document.querySelector(".sidenav");	
+      var instance = M.Sidenav.init();	
+  }
+
+  render() {
     return(
         <nav class="nav-wrapper">
           <div class="container">
@@ -26,7 +34,8 @@ import { Link } from 'react-router-dom'
           </div>
         </nav>
     
-    )
+    );	
+  }	
 }
 
 export default Navbar;
