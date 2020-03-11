@@ -7,7 +7,7 @@
   <!-- materialize icons, css & js -->
   <link type="text/css" href="css/materialize.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link type="text/css" href="css/styles.css" rel="stylesheet">
+  <link type="text/css" href=css/styles.css" rel="stylesheet">
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <link rel="manifest" href="manifest.json">
   <!-- ios support -->
@@ -35,6 +35,7 @@
   </div>
 
   <!-- add recipe side nav -->
+  <div class="right">
   <div id="side-form" className="sidenav side-form">
     <form className="add-recipe container section">
       <h6 >New Recipe</h6>
@@ -52,23 +53,31 @@
       </div>
     </form>
   </div>
-
+</div>
   
-  <script src="https://www.gstatic.com/firebasejs/5.11.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.11.0/firebase-firestore.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyDuDGcpHGU-Sx1Hla3wYwZvXbjeKpHqPjA",
-      authDomain: "net-ninja-pwa.firebaseapp.com",
-      databaseURL: "https://net-ninja-pwa.firebaseio.com",
-      projectId: "net-ninja-pwa",
-      storageBucket: "net-ninja-pwa.appspot.com",
-      messagingSenderId: "1008745109838"
-    };
-    firebase.initializeApp(config);
-    const db = firebase.firestore();
-  </script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCIAtvvGdhdUIaniPtbcQPmlL4LgnXvMvE",
+    authDomain: "jheejhee-pwa.firebaseapp.com",
+    databaseURL: "https://jheejhee-pwa.firebaseio.com",
+    projectId: "jheejhee-pwa",
+    storageBucket: "jheejhee-pwa.appspot.com",
+    messagingSenderId: "348049826860",
+    appId: "1:348049826860:web:be4819d8d7430b48ba1d89",
+    measurementId: "G-QFFFPCYFR7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
   <script src="js/app.js"></script>
   <script src="js/db.js"></script>
   <script src="js/ui.js"></script>
