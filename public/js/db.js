@@ -1,4 +1,5 @@
 // enable offline data
+
 db.enablePersistence()
   .catch(function(err) {
     if (err.code == 'failed-precondition') {

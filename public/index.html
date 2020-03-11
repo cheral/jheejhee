@@ -74,6 +74,9 @@
     appId: "1:348049826860:web:be4819d8d7430b48ba1d89",
     measurementId: "G-QFFFPCYFR7"
   };
+  const firebase = require("firebase/firebase");
+// Required for side-effects
+   require("firebase/firestore")
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   const db = firebase.firestore;
